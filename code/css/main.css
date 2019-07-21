@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+img {
+    display: block;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.box-flex{
+    display: flex;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+
+}
+
+.router-link-exact-active svg,
+.router-link-exact-active svg>g path,
+.router-link-exact-active svg>path {
+    fill: #f03d37;
+}
+
+/* 页面选中 */
+.router-link-exact-active {
+    color: #f03d37 !important;
+}

@@ -1,0 +1,108 @@
+.movie-details-top {
+    position: relative;
+    height: auto;
+}
+
+.details-top-bag {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("//p1.meituan.net/movie/bb9f75599bfbb2c4cf77ad9abae1b95c1376927.jpg@177w_249h.webp");
+    filter: blur(50px);
+}
+
+
+/* top-row */
+
+.details-top-row {
+    display: flex;
+    padding: 5vw;
+}
+
+.details-top-img {
+    height: 150px;
+    border: 1px solid #fff;
+}
+
+.details-top-content {
+    text-align: left;
+    padding-left: 3vw;
+    box-sizing: border-box;
+    line-height: 3vh;
+}
+
+.details-top-content>section {
+    color: #2c2c2c;
+    font-size: .8rem;
+}
+
+.details-top-content>h3 {
+    color: #fff;
+    font-weight: 100;
+    font-family: "黑体";
+}
+
+
+/* main */
+
+.movie-details-main {
+    background-color: #f5f5f5;
+    height: 60vh;
+}
+
+
+/* 电影介绍 */
+
+.movie-introduced {
+    background-color: #fff;
+    padding: 5vw;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.details-score span {
+    color: #ffc600;
+    padding-left: 2vw;
+    font-size: 1.2rem;
+}
+
+.details-score img {
+    display: initial;
+    margin: 0vw 1vw;
+}
+
+
+/* 主演列表 */
+
+.movie-Starring {
+    margin-top: 2vh;
+    background-color: #fff;
+}
+
+.movie-Starring-list {
+    width: auto;
+    display: flex;
+    overflow: scroll;
+}
+
+.movie-Starring-list>li img {
+    width: 65px;
+    height: 90px;
+}
+
+.movie-Starring-list>li {
+    padding: 5vw;
+}
+
+.movie-Starring-list>li span {
+    line-height: 3.5vh;
+    font-size: .9rem;
+}
+
+.Starring-title {
+    color: #999;
+    font-size: .8rem;
+}

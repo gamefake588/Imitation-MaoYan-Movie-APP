@@ -1,0 +1,60 @@
+/* 电影图片 */
+.Movie-row-img {
+    width: 20%;
+}
+
+/* 电影内容 */
+.Movie-row-content {
+    width: 59%;
+    text-align: left;
+    border-bottom: 1px solid #e1e1e1;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.Movie-row-content>h3 {
+    padding-bottom: 5px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+.Movie-row-content>p {
+    color: #666;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
+
+.review {
+    font-weight: 700;
+    color: #faaf00;
+    font-size: 15px;
+}
+
+.starring {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+/* 交互按钮 */
+.Movie-row-interactive {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.Movie-row-interactive>button {
+    padding: 5px 10px;
+    background-color: #f03d37;
+    color: #fff;
+    border: 1px solid #f03d37;
+    border-radius: 5px;
+}
